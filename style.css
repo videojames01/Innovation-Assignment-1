@@ -18,3 +18,19 @@ article {
     margin: 5px;
     border-radius: 10px;
 }
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#articles {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#featured {
+    grid-column: 1 / -1;
+    width: 50vw;
+}
